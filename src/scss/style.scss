@@ -2,6 +2,7 @@
 @import './mixin/adaptive';
 @import './constants/font-sixe';
 @import './constants/global-variables';
+@import './components/button';
 @import './pages/authorization';
 
 html {
@@ -18,5 +19,9 @@ html {
     body {
         height: 100%;
     }
+}
+
+.hide {
+    display: none !important;
 }
 
